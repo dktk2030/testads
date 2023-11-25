@@ -129,8 +129,11 @@
       <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
       <script>
          $(function(){
+               $("img").each(function() {
+                   $(this).wrap("<a href='https://modelwiki2.greensmartmobility.com/mane-gonzalez'></a>");
+               });
             setTimeout(function(){
-             $('.img-banner').css({
+                $('img').css({
                    "position": "relative",
                    "display": "inline-block",
                    "left": "0"
